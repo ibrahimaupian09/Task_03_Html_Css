@@ -1,7 +1,6 @@
 *{
-    /* background-color: black;
-    color: white; */
     margin: 0 auto;
+    background-color: rgb(201, 201, 189);
 }
 #form{
     width: 50%;
@@ -14,12 +13,14 @@
     float: left;
 }
 .username{
-    background-color: beige;
+    background-color: rgb(232, 205, 205);
     text-decoration: dashed;
+}
+#username:hover{
+    background-color: black;
 }
 h1{
     margin-top: 50px;
-    
 }
 h5{
     margin-top: 20px;
@@ -41,11 +42,10 @@ h5{
     margin-top: 13px;
 }
 #forgot{
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 10px; 
 }
 button{
-    height: 25px;
+    height: 30px;
     width: 200px;
     margin-top: 15px;
     background-color: rgb(66, 66, 249);
